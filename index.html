@@ -43,7 +43,7 @@ body.touch[data-scr=race] #pad .m,body.touch:not([data-scr=race]) #pad .r{displa
 @media (orientation:landscape) and (max-height:520px){
  /* sideways: game screen as big as possible; buttons in narrow side columns, never over the screen */
  #wrap{padding:0}
- canvas{width:min(calc(100vw - 172px - env(safe-area-inset-left) - env(safe-area-inset-right)),calc(100dvh*16/9));border-radius:0}
+ canvas{width:min(calc(100vw - 184px - env(safe-area-inset-left) - env(safe-area-inset-right)),calc(100dvh*16/9));border-radius:0}
  #pad{position:fixed;inset:0;max-width:none;margin:0;padding:6px max(4px,env(safe-area-inset-right)) 6px max(4px,env(safe-area-inset-left));justify-content:space-between;align-items:center;pointer-events:none;gap:0}
  #pad .g{pointer-events:auto;flex-direction:column;gap:8px;width:80px;align-items:center}
  #pad .g.row{flex-direction:column}
